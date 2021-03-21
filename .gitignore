@@ -127,3 +127,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+#Regression
+env.py
+.DS_Store
+.ipynb_checkpoints/
+ __pycache__ 
