@@ -4,7 +4,7 @@ All appliciable files, modules, and references for my regrssion project will be 
 
 ![Zillow](zillow_logo.png)
 
-## <font color ='blue>This repository will contain:</font>
+## <font color ='blue'>This repository will contain:</font>
     * One clearly labeled final Jupyter Notebook that walks through the pipeline for my project.
     *  `.py `files necessary to reproduce my work, and your work must be reproducible by someone with their own `env.py` file.
     * A README.md file documenting the project planning with instructions on how someone could clone and reproduce this project on their own machine. 
