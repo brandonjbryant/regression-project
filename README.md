@@ -3,7 +3,7 @@
 
 
 <p align="center">
-  <img src="https://www.underconsideration.com/brandnew/archives/zillow_logo.png" width="600" height="300" >
+  <img src="https://www.underconsideration.com/brandnew/archives/zillow_logo.png" width="500" height="200" >
 </p> 
 
 
