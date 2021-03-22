@@ -1,8 +1,10 @@
-# Zillow Regression Project
+# <font color ='cyan'>Zillow Regression Project</font>
 
 
-![Zillow](zillow_logo.png)
 
+<p align="center">
+  <img src="https://www.underconsideration.com/brandnew/archives/zillow_logo.png" width="600" height="300" >
+</p> 
 
 
 All appliciable files, modules, and references for my regrssion project will be uploaded into this repository.
