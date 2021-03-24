@@ -113,7 +113,7 @@ def clean_zillow(df):
                             "bedroomcnt": "bedrooms", 
                             "bathroomcnt": "bathrooms", 
                             "calculatedfinishedsquarefeet":"square_feet", 
-                            "fips": "county_fips_code",
+                            "fips": "county_fips",
                             "taxamount": "taxes",
                             "taxvaluedollarcnt": "tax_value", 
                             "yearbuilt": "age"})
@@ -129,7 +129,7 @@ def clean_zillow(df):
     #convert dtypes to integers
     df.bedrooms = df.bedrooms.astype('int64')
     df.square_feet = df.square_feet.astype('int64')
-    df.county_fips_code = df.county_fips_code.astype('int64')
+    df.county_fips = df.county_fips.astype('int64')
     df.age = df.age.astype('int64')
     df.tax_value = df.tax_value.astype('int64')
 
@@ -148,7 +148,7 @@ def clean_zillow(df):
     df = df[df.square_feet < uppersf]
 
     #remove outliers from tax_value
-    #calculate IQR
+    #calculate IQRover
     q1tv, q3tv = df.tax_value.quantile([.25, .75])
     iqrtv = q3tv - q1tv
             
