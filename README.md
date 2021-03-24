@@ -19,3 +19,20 @@ All appliciable files, modules, and references for my regrssion project will be 
             - Key findings and takeaways
 
 <font color ="darkgreen"><a href="https://trello.com/b/C5zkPkLB/regression-project">This link will direct you to my project board which details individual tasks I'll be working on for this project</a>
+
+    ### Data for Predicting Tax Value of Property
+---
+| Attribute | Definition | Data Type |
+| ----- | ----- | ----- |
+| parcelid | Unique identifier for parcels (lots) | Index/int | 
+| bathroomcnt | Number of bathrooms in home including fractional bathrooms | float |
+| bedroomcnt | Number of bedrooms in home | float |
+| square_feet | Calculated total finished living area of the home | float |
+| latitude | Latitude of the middle of the parcel multiplied by 10<sup>6</sup> | float |
+| longitude | Longitude of the middle of the parcel multiplied by 10<sup>6</sup> | float |
+| year_built | The Year the principal residence was built | int |
+| tax_value* | The total tax assessed value of the parcel | float |
+| age_of_home | year_built minus 2021 | int |
+| beds_and_baths | The sum of all bedrooms and bathrooms | float |
+| beds_per_sqft | The number of bedrooms divided by the square_feet | float |
+| baths_per_sqft | The number of bathrooms divided by the square_feet | float |
